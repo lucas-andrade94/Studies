@@ -1,0 +1,5 @@
+# Prisma Migrate lockfile v1
+
+20210915174929-create-review
+20210915191948-create-column-created-at
+20210915193023-create-colum-created-at-again

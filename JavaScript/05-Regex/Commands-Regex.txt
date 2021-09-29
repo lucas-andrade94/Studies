@@ -1,0 +1,19 @@
+\d         ---------------------------------------- Numero
+\w         ---------------------------------------- Letra ou numero
+\s         ---------------------------------------- Espaço em branco
+.          ---------------------------------------- Qualquer caracter
+\.         ---------------------------------------- Entende o (.) como um caracter
+\d{3}      ---------------------------------------- Um numero aparece 3x
+?          ---------------------------------------- Caracter opcional
+{0,3}      ---------------------------------------- Pode aparecer de 0 a 3x
+[-.]       ---------------------------------------- Pode ter um (-) ou (.) 
+[0-9][a-z] ---------------------------------------- Intervalo de (0-9) ou (a-z)
+{1,}       ---------------------------------------- 1x ou infinitas
++          ---------------------------------------- 1x ou infinitas
+*          ---------------------------------------- 0 ou mais vezes
+[^,]       ---------------------------------------- Pega qualquer digito que não seja uma virgula
+\b(palavra)/b   ----------------------------------- Encontra exatamente a sequencia procurada
+^          ---------------------------------------- No inicio
+$          ---------------------------------------- No final
+\B(silaba)\B    ----------------------------------- A silaba deve estar no meio de uma palavra
+(?:palavra)   ------------------------------------- Esse grupo não deve ser capturado como grupo
